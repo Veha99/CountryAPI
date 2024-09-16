@@ -1,6 +1,7 @@
 using country.Services;
 using country.Services.Countries;
 using country.Services.TeamMembers;
+using IpCountryApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddControllers().AddJsonOptions(options =>
     options.JsonSerializerOptions.DictionaryKeyPolicy = null;
 });
 builder.Services.AddHttpClient<CountryService>();
+builder.Services.AddHttpClient<IpInfoService>();
 builder.Services.AddScoped<ITeamMembers, TeamMembersService>();
 builder.Services.AddScoped<ICountries, CountryService>();
 

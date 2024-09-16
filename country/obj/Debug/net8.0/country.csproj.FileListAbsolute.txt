@@ -31,3 +31,4 @@
 /Users/hi/Documents/CountryAPI/country/country/obj/Debug/net8.0/country.pdb
 /Users/hi/Documents/CountryAPI/country/country/obj/Debug/net8.0/country.genruntimeconfig.cache
 /Users/hi/Documents/CountryAPI/country/country/obj/Debug/net8.0/ref/country.dll
+/Users/hi/Documents/CountryAPI/country/country/obj/Debug/net8.0/country.sourcelink.json
